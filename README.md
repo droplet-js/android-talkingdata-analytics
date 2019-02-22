@@ -1,5 +1,8 @@
 # android-talkingdata-analytics
 
+[![Build Status](https://cloud.drone.io/api/badges/v7lin/android-talkingdata-analytics/status.svg)](https://cloud.drone.io/v7lin/android-talkingdata-analytics)
+[ ![Download](https://api.bintray.com/packages/v7lin/maven/talkingdata-analytics-android/images/download.svg) ](https://bintray.com/v7lin/maven/talkingdata-analytics-android/_latestVersion)
+
 ### snapshot
 
 ````
