@@ -35,6 +35,8 @@ steps:
   commands:
   - ./gradlew :talkingdata-analytics-android:clean :talkingdata-analytics-android:install :talkingdata-analytics-android:artifactoryPublish
   when:
+    branch:
+    - master
     event:
     - push
 
