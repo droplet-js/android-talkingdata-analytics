@@ -31,7 +31,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 4.0.21-SNAPSHOT
+    VERSION_NAME: 4.0.27-SNAPSHOT
   commands:
   - ./gradlew :talkingdata-analytics-android:clean :talkingdata-analytics-android:install :talkingdata-analytics-android:artifactoryPublish
   when:
@@ -52,7 +52,7 @@ steps:
     BINTRAY_API_KEY:
       from_secret: BINTRAY_API_KEY
     VERSION_CODE: ${DRONE_BUILD_NUMBER}
-    VERSION_NAME: 4.0.21
+    VERSION_NAME: 4.0.27
   commands:
   - ./gradlew :talkingdata-analytics-android:clean :talkingdata-analytics-android:install :talkingdata-analytics-android:bintrayUpload
   when:
